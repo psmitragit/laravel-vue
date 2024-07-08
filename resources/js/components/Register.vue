@@ -30,9 +30,13 @@
   import axios from 'axios';
   import swal from 'sweetalert';
   import { reactive } from 'vue';
+  import { useRouter } from 'vue-router';
 
   export default {
     setup() {
+
+    const router = useRouter();
+
       const form = reactive({
         name: '',
         email: '',
