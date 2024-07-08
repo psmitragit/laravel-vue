@@ -1,4 +1,5 @@
 <template>
+    <div>
     <!-- Hero Section -->
   <div class="container-fluid bg-light py-5">
     <div class="row justify-content-center">
@@ -42,4 +43,5 @@
       </div>
     </div>
   </div>
+</div>
 </template>
